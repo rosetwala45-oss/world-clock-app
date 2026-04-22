@@ -1,0 +1,42 @@
+body {
+  background-color: #f2eaef;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: white;
+  margin: 60px auto;
+  max-width: 600px;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px auto;
+  margin: 10px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+}
