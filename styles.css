@@ -27,6 +27,7 @@ select {
   font-size: 18px;
   border-radius: 8px;
   padding: 10px;
+  background-color: #fcfcfc;
 }
 
 .city {
